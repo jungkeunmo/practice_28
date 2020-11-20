@@ -1,0 +1,65 @@
+@import "./reset.css";
+
+.screen {
+    width: 100%;
+    height: 630px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.screen .screen__col1 {
+    width: 10%;
+    height: 630px;
+
+    background-color: aqua;
+}
+
+.screen .screen__col2 {
+    width: 90%;
+    height: 630px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.screen .screen__col2 .screen__col2__hader {
+    width: 100%;
+    height: 157.5px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.screen .screen__col2 .screen__col2__hader__sec1 {
+    width: 80%;
+    height: 157.5px;
+
+    background-color: crimson;
+}
+
+.screen .screen__col2 .screen__col2__hader__sec2 {
+    width: 20%;
+    height: 157.5px;
+
+    background-color: darkseagreen;
+}
+
+.screen .screen__col2 .screen__col2__top {
+    width: 100%;
+    height: 157.5px;
+
+    background-color: blueviolet;
+}
+.screen .screen__col2 .screen__col2__main {
+    width: 100%;
+    height: 157.5px;
+
+    background-color: chartreuse;
+}
+.screen .screen__col2 .screen__col2__under {
+    width: 100%;
+    height: 157.5px;
+
+    background-color: cornflowerblue;
+}
